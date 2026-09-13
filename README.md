@@ -2,7 +2,7 @@
 
 完全离线的考研学习管理应用。当前版本为 **1.0.0+19**，覆盖计划、课表、单词、番茄钟和本地资料管理。学习数据只保存在设备本地。
 
-> 当前仓库处于公开发布准备阶段。Android 安装包只有在使用项目所有者的正式密钥签名并完成校验后才会上传到 [Releases](https://github.com/Xbossjohnhacker/learning-bird/releases)；不会把调试签名包伪装成正式版。
+> Android 正式安装包使用项目所有者的独立发布密钥签名，可在 [Releases](https://github.com/Xbossjohnhacker/learning-bird/releases) 下载。调试签名包不会作为正式版公开。
 
 ![Learning Bird 宣传图](release-assets/promo/learning-bird-poster.png)
 
@@ -53,7 +53,7 @@ Release 构建默认要求自有签名；未配置时会安全停止。内部测
 - 支持带完整性校验的全量 JSON 备份与事务恢复。
 - 设置页可查看并申请系统通知权限。
 - 已通过一万条单词与复习计划压力测试。
-- Android Release 模式内部验收包已构建；正式公开包等待自有签名。
+- Android 正式 Release 安装包已使用项目所有者的独立密钥签名并通过校验。
 
 ## 隐私与许可
 

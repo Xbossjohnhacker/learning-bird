@@ -1,8 +1,8 @@
 # Learning Bird 1.0 发布检查清单
 
 ## 当前状态与正式目标
-当前发布准备版本：1.0.0+19。应用标识：com.learningbird.learning_bird。
-公开发布前必须最终确认应用标识和发布者名称。内部验证 APK 仍为调试签名，文件名必须明确带 debug-signed。
+当前 GitHub 发布版本：1.0.0+19。应用标识：com.learningbird.learning_bird。
+Build 19 已使用项目所有者的首个正式发布密钥签名；内部历史 APK 仍为调试签名，不得作为正式版分发。
 
 ## 签名准备
 1. 决定正式签名密钥归属及备份位置。若已有发布密钥，应继续使用原密钥。
@@ -52,6 +52,18 @@ try {
 - APK SHA-256：`49EBB6B63B0F55C18011E60DC231F220584301582E0881BB71516CD73A76E253`
 - AAB SHA-256：`114752C4AC1602931A4D55068512B4F3C22F9E58314601325116B3B0820DB9B0`
 - 无密钥源码快照 SHA-256：`ABBFBCD0D7AEBF5FD58FC5769F180FFF77BE5AEB4E3ED89A6713D4A70A7D9558`
+
+## 1.0.0（19）GitHub 正式发布结果
+
+- 包名：`com.learningbird.learning_bird`
+- 版本：`1.0.0`；versionCode：`19`
+- minSdk：26；compileSdk/targetSdk：36
+- APK 大小：69,894,521 字节（约 66.66 MiB）
+- APK SHA-256：`49EA21332F77C46F93E639B923A0A9F0A30834909421DBC880F29AD8F9E0C734`
+- 正式证书 SHA-256：`B94AC4957B6F782F86833B5A6B3CFDFF2CDB015063C59685EF4B9864CEEDD3CD`
+- APK Signature Scheme v2 校验通过；签名主体为 Learning Bird，不是 Android Debug。
+- 16 KB ZIP 对齐校验通过。
+- 141 项自动化测试通过，另有 1 项个人课表样本测试按设计跳过；静态分析无问题。
 
 ## Google Play 提交前的权限申报
 
