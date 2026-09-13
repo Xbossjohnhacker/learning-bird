@@ -2,7 +2,7 @@
 
 完全离线的考研学习管理应用。当前版本为 **1.0.0+19**，覆盖计划、课表、单词、番茄钟和本地资料管理。学习数据只保存在设备本地。
 
-> Android 正式安装包使用项目所有者的独立发布密钥签名，可在 [Releases](https://github.com/Xbossjohnhacker/learning-bird/releases) 下载。调试签名包不会作为正式版公开。
+> Android 正式安装包使用项目所有者的独立发布密钥签名。国内网络可从 [GitCode](https://gitcode.com/2403_87724616/learning-bird/releases) 下载，GitHub 用户可从 [GitHub Releases](https://github.com/Xbossjohnhacker/learning-bird/releases) 下载。调试签名包不会作为正式版公开。
 
 ![Learning Bird 品牌总览](release-assets/marketing/learning-bird-overview.png)
 
@@ -20,8 +20,8 @@ Release 构建默认要求自有签名；未配置时会安全停止。内部测
 
 ## 安装
 
-1. 打开 [GitHub Releases](https://github.com/Xbossjohnhacker/learning-bird/releases)。
-2. 下载最新正式版本中的 APK，并核对发布说明里的 SHA-256。
+1. 国内网络直接下载 [GitCode 正式 APK](https://gitcode.com/2403_87724616/learning-bird/releases/download/v1.0.0/learning-bird-1.0.0-build19.apk)，也可以使用 [GitHub Releases](https://github.com/Xbossjohnhacker/learning-bird/releases)。
+2. 核对发布说明或同目录 SHA-256 文件中的摘要。
 3. 在 Android 8.0（API 26）或更高版本设备上允许浏览器或文件管理器“安装未知应用”，再打开 APK。
 
 目前不提供 iOS 安装包。首次安装后，通知、精确闹钟和全屏提醒等能力会按功能需要在应用内引导授权；不同厂商还可能需要允许后台运行和关闭电池优化。

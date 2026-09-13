@@ -1,6 +1,11 @@
 # Learning Bird 1.0.0（Build 19）
 
-这是 Learning Bird 首次 GitHub 正式公开版本。
+这是 Learning Bird 首次 GitHub 与 GitCode 正式公开版本。
+
+## 下载渠道
+
+- [GitCode 国内 APK 直链](https://gitcode.com/2403_87724616/learning-bird/releases/download/v1.0.0/learning-bird-1.0.0-build19.apk)
+- [GitHub APK 直链](https://github.com/Xbossjohnhacker/learning-bird/releases/download/v1.0.0/learning-bird-1.0.0-build19.apk)
 
 ![Learning Bird 品牌总览](https://raw.githubusercontent.com/Xbossjohnhacker/learning-bird/main/release-assets/marketing/learning-bird-overview.png)
 
