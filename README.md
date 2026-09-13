@@ -4,7 +4,7 @@
 
 > Android 正式安装包使用项目所有者的独立发布密钥签名，可在 [Releases](https://github.com/Xbossjohnhacker/learning-bird/releases) 下载。调试签名包不会作为正式版公开。
 
-![Learning Bird 宣传图](release-assets/promo/learning-bird-poster.png)
+![Learning Bird 品牌总览](release-assets/marketing/learning-bird-overview.png)
 
 ## 1.0 发布入口
 
@@ -31,6 +31,12 @@ Release 构建默认要求自有签名；未配置时会安全停止。内部测
 | 今日 | 单词本 | 周计划 |
 | --- | --- | --- |
 | ![今日页面](release-assets/screenshots/01-today.png) | ![单词本页面](release-assets/screenshots/02-word-books.png) | ![周计划页面](release-assets/screenshots/04-week-plan.png) |
+
+## 功能介绍图
+
+| 计划与课表 | 背词与专注 |
+| --- | --- |
+| ![计划与课表介绍图](release-assets/marketing/learning-bird-plan-timetable.png) | ![背词与专注介绍图](release-assets/marketing/learning-bird-vocabulary-focus.png) |
 
 ## 当前能力
 

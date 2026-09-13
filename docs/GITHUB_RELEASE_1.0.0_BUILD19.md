@@ -2,6 +2,8 @@
 
 这是 Learning Bird 首次 GitHub 正式公开版本。
 
+![Learning Bird 品牌总览](https://raw.githubusercontent.com/Xbossjohnhacker/learning-bird/main/release-assets/marketing/learning-bird-overview.png)
+
 ## 本版内容
 
 - 今日计划、周规划、日列表与课程地点展示。
@@ -12,6 +14,10 @@
 - “认识 / 不认识 / 跳过”词卡流程与复习计划。
 - 番茄钟、后台通知提醒和本地资料工具箱。
 - JSON 数据备份与恢复。
+
+| 计划与课表 | 背词与专注 |
+| --- | --- |
+| ![计划与课表介绍图](https://raw.githubusercontent.com/Xbossjohnhacker/learning-bird/main/release-assets/marketing/learning-bird-plan-timetable.png) | ![背词与专注介绍图](https://raw.githubusercontent.com/Xbossjohnhacker/learning-bird/main/release-assets/marketing/learning-bird-vocabulary-focus.png) |
 
 ## 安装要求
 
