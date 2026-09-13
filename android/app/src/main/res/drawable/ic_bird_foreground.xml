@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Bird and open book remain within the adaptive icon safe zone. -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M29,60 Q42,57 53,64 L53,78 Q42,71 29,73 Z M56,64 Q66,58 79,60 L79,73 Q66,71 56,78 Z"/>
+    <path android:fillColor="#D7E7C7"
+        android:pathData="M32,34 L53,46 Q58,30 70,34 Q77,36 76,43 L82,46 L75,49 Q69,63 54,59 Q43,55 32,34 Z"/>
+    <path android:fillColor="#245943"
+        android:pathData="M69,39 A2,2 0,1 0,69,43 A2,2 0,1 0,69,39"/>
+</vector>

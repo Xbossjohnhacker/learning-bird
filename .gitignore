@@ -1,0 +1,72 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/.artifact_work/
+/outputs/
+/.build_tmp/
+/.word_qa/
+/.word_qa_learning_bird/
+/device_backups/
+/releases/
+**/*.jks
+**/*.keystore
+**/key.properties
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local planning, prototypes, and one-off artifact generation
+/prototype/
+/diagram/
+/*.docx
+/第一阶段交付清单.md
+/第二阶段交付清单.md
+/STAGE_*_DELIVERY.md
+/REGRESSION_TEST_REPORT_*.md
+/build_project_plan_docx.py
+/fix_builder_*.py
+/make_*contact*.cjs
+/make_word_medium_pages.cjs
+/rasterize_*.mjs
+/rasterize_*.py
+/render_*_to_pdf.ps1
+/rename_product_in_docx.py

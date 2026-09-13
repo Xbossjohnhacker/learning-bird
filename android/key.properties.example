@@ -1,0 +1,6 @@
+# Copy to key.properties locally. Never commit passwords or the keystore.
+# Use an absolute path with forward slashes.
+storeFile=D:/Signing/learning-bird-release.jks
+storePassword=YOUR_LOCAL_STORE_PASSWORD
+keyAlias=learning-bird
+keyPassword=YOUR_LOCAL_KEY_PASSWORD

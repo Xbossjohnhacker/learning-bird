@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source": "https://github.com/skywind3000/ECDICT",
+  "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+  "sourceSha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "books": [
+    {
+      "id": "kaoyan",
+      "name": "考研英语",
+      "description": "考研分类参考词汇",
+      "count": 4801,
+      "tags": [
+        "ky"
+      ],
+      "excludedRows": 0,
+      "sha256": "c463a964667b5f904face15db89a379f6a26d15d5a045c50fff9090c0c2a6035"
+    },
+    {
+      "id": "cet4",
+      "name": "大学英语四级",
+      "description": "四级分类参考词汇",
+      "count": 3849,
+      "tags": [
+        "cet4"
+      ],
+      "excludedRows": 0,
+      "sha256": "6a801a0ff9d67dcd980ec867547f1753795601b286a98055947bd498370d4408"
+    },
+    {
+      "id": "cet6",
+      "name": "大学英语六级",
+      "description": "六级词汇，包含四级基础词",
+      "count": 5805,
+      "tags": [
+        "cet4",
+        "cet6"
+      ],
+      "excludedRows": 0,
+      "sha256": "7698c736a24d1037e2807fa05013ec90d742f78b52212259468d14969117ff91"
+    }
+  ]
+}

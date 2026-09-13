@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Learning Bird｜让备考更有节奏</title>
+  <style>
+    :root{--green:#245943;--green2:#3f7b60;--mint:#e5f0e9;--cream:#f7f4ec;--ink:#16231d;--muted:#66736c;--line:#d8e2dc}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;line-height:1.65}
+    .wrap{width:min(1180px,calc(100% - 40px));margin:auto}.hero{position:relative;overflow:hidden;padding:74px 0 60px;background:linear-gradient(140deg,#173d2e 0%,#245943 54%,#5f9378 100%);color:white}
+    .hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-170px;top:-220px;background:rgba(255,255,255,.09)}.hero-grid{display:grid;grid-template-columns:1fr .78fr;align-items:center;gap:56px}.brand{display:flex;align-items:center;gap:14px;font-weight:800;letter-spacing:.08em}.brand img{width:64px;height:64px;border-radius:18px;box-shadow:0 10px 30px #10271e66}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.08;margin:32px 0 20px;letter-spacing:-.04em}.hero h1 span{color:#d7f0e1}.lead{font-size:21px;max-width:650px;color:#e8f4ed}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.chip{padding:8px 14px;border:1px solid #ffffff55;border-radius:99px;background:#ffffff18}.hero-phone{justify-self:center;width:300px;transform:rotate(4deg);border:9px solid #14221c;border-radius:36px;overflow:hidden;box-shadow:0 34px 75px #0a1c1455;background:white}.hero-phone img{width:100%;display:block}
+    section{padding:72px 0}.eyebrow{color:var(--green2);font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.title{font-size:clamp(32px,4vw,52px);line-height:1.2;margin:8px 0 14px}.intro{max-width:760px;color:var(--muted);font-size:18px}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.feature{background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:0 12px 34px #173d2e0d}.feature b{display:block;font-size:20px;margin:12px 0 7px}.feature .icon{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:var(--mint);font-size:24px}
+    .screens{background:#eaf1ed}.screen-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:36px;align-items:start}.shot{margin:0}.shot img{width:100%;display:block;border:6px solid #1d2923;border-radius:28px;background:white;box-shadow:0 16px 38px #173d2e26}.shot figcaption{text-align:center;font-weight:700;margin-top:12px;color:#33473d}.statement{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.quote{background:var(--green);color:white;padding:44px;border-radius:30px}.quote p{font-size:30px;line-height:1.45;margin:0}.list{display:grid;gap:14px}.point{display:flex;gap:14px;padding:16px 18px;border-radius:18px;background:#fff;border:1px solid var(--line)}.check{color:var(--green);font-weight:900}.cta{text-align:center;background:linear-gradient(135deg,#f7f4ec,#e4f0e8)}.cta-card{padding:50px;border-radius:30px;background:white;border:1px solid var(--line)}.cta h2{font-size:42px;margin:0 0 12px}.cta p{color:var(--muted);font-size:18px}.badge{display:inline-block;margin-top:14px;padding:12px 22px;border-radius:14px;background:var(--green);color:white;font-weight:800}.note{font-size:13px!important;margin-top:18px}footer{padding:30px;text-align:center;color:var(--muted);border-top:1px solid var(--line)}
+    @media(max-width:900px){.hero-grid,.statement{grid-template-columns:1fr}.hero-phone{display:none}.feature-grid{grid-template-columns:1fr}.screen-grid{grid-template-columns:repeat(2,1fr)}.screen-grid .shot:last-child{grid-column:span 2;width:50%;justify-self:center}}@media(max-width:520px){.wrap{width:min(100% - 26px,1180px)}section{padding:52px 0}.hero{padding:46px 0}.screen-grid{grid-template-columns:1fr 1fr;gap:10px}.shot img{border-width:4px;border-radius:20px}.shot figcaption{font-size:13px}.cta-card,.quote{padding:28px}.quote p{font-size:23px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="brand"><img src="../learning-bird-store-icon-512.png" alt="Learning Bird 图标">LEARNING BIRD</div>
+        <h1>把每一天，<br><span>学得更有方向。</span></h1>
+        <p class="lead">一款为考研与长期学习打造的离线学习管理工具。计划、背词、专注和资料集中在一个应用里，让目标真正落到今天。</p>
+        <div class="chips"><span class="chip">周规划课表</span><span class="chip">科学背词</span><span class="chip">番茄专注</span><span class="chip">本地资料库</span></div>
+      </div>
+      <div class="hero-phone"><img src="../screenshots/01-today.png" alt="Learning Bird 今日界面"></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <div class="eyebrow">ONE APP, ONE RHYTHM</div>
+      <h2 class="title">少一点切换，多一点完成</h2>
+      <p class="intro">Learning Bird 不只记录任务，更把“安排—执行—复习—回顾”连接起来。你能看清这一周，也能专注于眼前的一个单词、一个番茄。</p>
+      <div class="feature-grid">
+        <article class="feature"><span class="icon">▦</span><b>像课程表一样规划</b><span>一屏查看完整周计划，支持课表导入、地点展示、重叠计划与跨周浏览。</span></article>
+        <article class="feature"><span class="icon">Aa</span><b>把单词真正记住</b><span>内置考研、四级、六级词书，也可导入 Excel 或手动添加。认识与不认识，两步完成反馈。</span></article>
+        <article class="feature"><span class="icon">◷</span><b>专注到点有提醒</b><span>自定义专注与休息时长，前台、桌面或使用其他应用时，都能收到阶段结束提醒。</span></article>
+        <article class="feature"><span class="icon">✓</span><b>每天目标可调整</b><span>为每本词书单独设置每日学习量；完成目标后仍可继续，不让状态限制热情。</span></article>
+        <article class="feature"><span class="icon">▤</span><b>资料就在手边</b><span>直接导入考研资料文件夹，统一管理视频与文本，并在应用内查看或播放。</span></article>
+        <article class="feature"><span class="icon">⌂</span><b>数据留在本地</b><span>核心数据离线保存，支持备份恢复。没有网络，也能保持自己的学习节奏。</span></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="screens">
+    <div class="wrap">
+      <div class="eyebrow">REAL INTERFACE</div>
+      <h2 class="title">每个页面，都为行动服务</h2>
+      <p class="intro">以下均为当前候选测试版本的真实界面，内容使用匿名示例数据。</p>
+      <div class="screen-grid">
+        <figure class="shot"><img src="../screenshots/01-today.png" alt="今日总览"><figcaption>今日总览</figcaption></figure>
+        <figure class="shot"><img src="../screenshots/02-word-books.png" alt="词书管理"><figcaption>词书管理</figcaption></figure>
+        <figure class="shot"><img src="../screenshots/03-word-card.png" alt="单词词卡"><figcaption>认识 / 不认识</figcaption></figure>
+        <figure class="shot"><img src="../screenshots/04-week-plan.png" alt="周规划表"><figcaption>周规划表</figcaption></figure>
+        <figure class="shot"><img src="../screenshots/05-pomodoro.png" alt="番茄钟"><figcaption>番茄专注</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap statement">
+      <div class="quote"><p>“不是把计划写得更满，<br>而是让每一次学习都有去处。”</p></div>
+      <div class="list">
+        <div class="point"><span class="check">✓</span><span>今天该做什么，一打开就知道</span></div>
+        <div class="point"><span class="check">✓</span><span>课程、计划与地点放进同一张周表</span></div>
+        <div class="point"><span class="check">✓</span><span>不认识的单词自动进入强化循环</span></div>
+        <div class="point"><span class="check">✓</span><span>学习数据按日、周、月持续沉淀</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap cta-card">
+      <h2>Learning Bird</h2>
+      <p>你的计划，你的节奏，你看得见的每一步。</p>
+      <span class="badge">1.0 候选测试版 · 欢迎参与内测</span>
+      <p class="note">当前测试版本支持 Android 8.0 及以上。测试前建议做好重要学习数据备份。</p>
+    </div>
+  </section>
+  <footer>Learning Bird · Learn with a clear rhythm.</footer>
+</body>
+</html>

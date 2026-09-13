@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bird_green">#245943</color>
+    <color name="bird_launch_surface">#F8FAF8</color>
+</resources>
